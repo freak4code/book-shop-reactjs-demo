@@ -1,0 +1,32 @@
+/* Footer  Styling */
+
+
+.footer-container {
+  height: 150px;
+  background-color: black;
+  margin-top: 40px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 50%;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  height: 150px;
+  background-color: transparent;
+  margin: auto;
+}
+
+.footer-text {
+  color: whitesmoke;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.footer-subtext {
+    color: whitesmoke;
+    font-size: 17px;
+    font-weight: bolder;
+}

@@ -1,0 +1,33 @@
+/* Services Page Styling */
+.service-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  grid-gap: 20px;
+  margin: 20px;
+}
+
+.service-title {
+  margin-top: 10px;
+  color: whitesmoke;
+}
+
+.spinner-arena {
+  margin: 20px;
+  height: 300px;
+}
+
+.spinnner-position {
+  position: relative;
+  left: 50%;
+  top: 50%;
+}
+
+
+@media only screen and (max-width: 688px) {
+  .service-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+}

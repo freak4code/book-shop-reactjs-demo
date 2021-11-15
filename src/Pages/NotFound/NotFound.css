@@ -1,0 +1,13 @@
+/* Not Found Page Styling */
+.not-found {
+  background: url("https://i.ibb.co/93P0v1H/Traffic-Sign-Page-404-Not-Found-Flat-Illustration.jpg");
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: crimson;
+  color: whitesmoke;
+  text-align: center;
+  height: 400px;
+  font-size: 40px;
+  font-weight: bolder;
+}
